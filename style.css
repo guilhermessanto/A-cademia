@@ -1,3 +1,7 @@
 /* .nav-item a {
     color: blue;
 } */
+*, *::after, *::before {
+    
+    scroll-padding-top: 120px;
+}

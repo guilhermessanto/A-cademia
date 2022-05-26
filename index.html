@@ -11,13 +11,30 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- CSS próprio -->
     <link rel="stylesheet" href="style.css">
+    <!-- icones bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-md bg-light shadow">
+<body id="topo">
+    <header class="container">
+      <div class="row">
+        <div class="col"> 
+          <p> Aberta todos os dias - 24h</p>
+        </div>
+        <div class="col text-end">
+          <p>
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </p>
+        </div>
+      </div>
+    </header>
+      <!-- NAV -->
+        <nav class="navbar navbar-expand-md bg-light shadow sticky-top">
             <div class="container">
                 <!-- logo -->
-            <a class="navbar-brand" href="#topo"><img src="img/a-cademia-logo.png" alt="foto logo A-cademia" title="logo A-cademia" style="max-width:45%;"></a>
+            <a class="navbar-brand col-8 " href="#topo"><img src="img/a-cademia-logo.png" alt="foto logo A-cademia" title="logo A-cademia" style="max-width:45%;"></a>
                 <!-- menu hamburger -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,7 +57,7 @@
             </div>
             </div>
         </nav>
-    </header>
+    
 <!-- FIM do header -->
 <!-- slider -->
     <section id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -86,7 +103,7 @@
     </section>
     <!-- FIM slide -->
     <!-- custom cards -->
-    <section class="container px-4 py-5" id="custom-cards">
+    <section id="modalidades" class="container px-4 py-5" >
         <h2 class="pb-2 border-bottom">O que você prefere?</h2>
     
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
@@ -134,7 +151,7 @@
     </section>
     <!-- FIM CTA -->
     <!-- FORMULARIO -->
-    <section class="container mt-5 pt-5">
+    <section id="contato" class="container mt-5 pt-5">
         <div class="row">
             <div class="col-10 offset-1">
                 <h2 class="pb-2 border-bottom">Entre em contato</h2>
@@ -164,6 +181,67 @@
             </div>
         </div>
     </section>
+    <!-- FIM form -->
+    <!-- footer -->
+    <div class="container-fluid bg-light mt-5">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 offset-3 col-md-5 offset-md-1 mb-3 ">
+            <h2>A-cademia</h2>
+            <p class="small">A melhor rede de academias do Brasil.</p>
+            <p>
+              Telefone: 11 2345-6789 <br>
+              WhatsApp: 11 2345-6789 <br>
+              Endereço: Av. Paulista, 500 <br>
+              São Paulo - SP.
+            </p>
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-4 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-4 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi bi-isntagram" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi bi-facebook" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
     <!-- Bootstrap -->
     <script src="js/bootstrap.bundle.js"></script>
 </body>
