@@ -46,10 +46,10 @@
     z-index: 1;
   }
   /* reescrevendo a classe do bootstrap */
-  .btn-primary{
+  /* .btn-primary{
       background-color: purple;
       border: 1px solid rgb(114, 1, 114);
-  }
+  } */
 
   /* Media Query for devices withi coarse pointers and no hover functionality */
   
